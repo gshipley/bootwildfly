@@ -9,6 +9,6 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-        return ("Spring boot Updated service");
+        return ("Satya Pavan Rankireddy");
     }
 }
