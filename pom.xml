@@ -58,12 +58,9 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
-					<!-- REMOVE: mvn:install with these tags enabled will create two war 
-						files! OpenShift container ends up deploying both and causes issues later 
-						(conflict between instances when registering dataSource bean for example) -->
-					<!-- <outputDirectory>target</outputDirectory> -->
-					<!-- <warName>ROOT</warName> -->
-				</configuration>
+					 <outputDirectory>target</outputDirectory>
+					<warName>ROOT</warName>
+			</configuration>
 			</plugin>
 		</plugins>
 	</build>
